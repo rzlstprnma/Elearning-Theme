@@ -1,0 +1,166 @@
+
+.jumbotron{
+    background: linear-gradient(to right, #1439ce, #3e64ff);
+    height: 120px;
+}
+
+.jumbotron .container{
+    left: 0px; right: 30px; top: 45px;
+}
+
+.jumbotron h2 span{
+    font-size: 14px;
+    margin-left: 2%;
+    background: #f9f9f9;
+    color: #000;
+    padding: 4px;
+    border-radius: 50%;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+#search-courses{
+    margin-top: 10%;
+}
+
+#search-courses .container p{
+    font-size: 20px;
+}
+
+/* search box */
+.search-box{
+    margin-top: 0;
+}
+
+.search-box .form-control{
+    width: 89%;    
+    height: 40px;
+    box-shadow: none;
+    border: 1px solid #d1d1d1;
+    padding-left: 15px;
+}
+
+.search-box .form-control:focus{
+    box-shadow: none;
+    border: 1px solid #3e64ff;
+}
+
+.search-box .btn-primary{
+    box-shadow: none;
+    height: 40px;
+    color: #fff;
+    width: 11%;
+}
+
+/* categories */
+#categories .nav-item{
+    margin-top: 2%;
+    transition: .1s ease-in-out;
+}
+
+
+#categories .nav-item:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
+    padding: 0 2%;
+}
+
+#categories .nav-link{
+    float: left;
+    color: #000;
+    font-weight: bold;
+}
+
+#categories .nav-item i{
+    float: right;
+    color: #3e64ff;
+    line-height: 40px;
+}
+
+#categories .category-count{
+    width: 20px !important;
+    height: 20px !important;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    background: #fbff00;
+    margin-left: 5px;
+    line-height: 20px;
+    /* font-weight: bold; */
+}
+
+#courses .card{
+    border-radius: 0;
+    border: none;
+    color: #000;
+}
+
+#courses .card-body{
+    padding-bottom: 0 !important;
+    position: relative;
+}
+
+#courses .card:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+#courses .card-body .desc{
+    max-height: 120px !important;
+    overflow: hidden;
+}
+
+#courses .card img{
+    width: 100%;
+    max-height: 400px;
+    padding: 0;
+}
+
+#courses .card-body h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#courses .card-body p{
+    font-size: 14px;
+}
+
+
+#courses .author{
+    float: left;
+    font-size: 12px;
+}
+
+#courses .c-category{
+    float: right;
+    font-size: 12px;
+}
+
+.page-item a{
+    color: #3e64ff !important;
+}
+
+.active{
+    background-color: #333 !important;
+}
+
+.active a{
+    color: #fff !important;
+}
+
+
+@media (min-width: 800px){
+    .jumbotron{
+        height: 40px;
+    }
+
+    .jumbotron .container{
+        left: 30px;
+    }
+
+    #search-courses{
+        margin-top: 4%;
+    }
+
+}
+
